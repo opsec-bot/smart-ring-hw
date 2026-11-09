@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BQ25120A")(type "KiCad")(uri "${KIPRJMOD}/output/symbols/BQ25120A.kicad_sym")(options "")(descr "Project: TI BQ25120A PMIC"))
+  (lib (name "BMI270")(type "KiCad")(uri "${KIPRJMOD}/output/symbols/BMI270.kicad_sym")(options "")(descr "Project: Bosch BMI270 IMU"))
+  (lib (name "MAXM86161")(type "KiCad")(uri "${KIPRJMOD}/output/symbols/MAXM86161.kicad_sym")(options "")(descr "Project: Maxim MAXM86161 optical AFE"))
+  (lib (name "ISP1807")(type "KiCad")(uri "${KIPRJMOD}/output/symbols/ISP1807.kicad_sym")(options "")(descr "Project: Insight SiP ISP1807 nRF52840 module"))
+)
