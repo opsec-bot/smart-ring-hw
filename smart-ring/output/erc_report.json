@@ -1,0 +1,181 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-08T14:05:20",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/7abe5fc2-3b87-4c73-aed7-41307cfc76f7",
+            "violations": [
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 10 [~MR, Input, Line]",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 69.85
+                            },
+                            "uuid": "8b9461ce-40a1-4b5c-9bf0-66d555456022"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 10 [~MR, Input, Line]",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 69.85
+                            },
+                            "uuid": "8b9461ce-40a1-4b5c-9bf0-66d555456022"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 11 [~RESET, Output, Line]",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 72.39
+                            },
+                            "uuid": "9296b698-0350-47a5-87b1-45b2eefd86d5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 13 [TS, Input, Line]",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 77.47
+                            },
+                            "uuid": "bccfaeb4-8a3f-481b-81ed-4b7c18d3163f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 13 [TS, Input, Line]",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 77.47
+                            },
+                            "uuid": "bccfaeb4-8a3f-481b-81ed-4b7c18d3163f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 11 [ASDX, Bidirectional, Line]",
+                            "pos": {
+                                "x": 191.77,
+                                "y": 62.23
+                            },
+                            "uuid": "f73d33a8-fbeb-4d19-9f73-09de60da4181"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 12 [ASCX, Bidirectional, Line]",
+                            "pos": {
+                                "x": 191.77,
+                                "y": 64.77
+                            },
+                            "uuid": "b655eef2-3012-4664-82c8-e32b8cfe274f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Pin 3 [ALERT, Open collector, Line]",
+                            "pos": {
+                                "x": 234.95,
+                                "y": 62.23
+                            },
+                            "uuid": "865443a5-b47c-40e4-b7a6-47adf300d642"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 7 [SDO_SA0, Bidirectional, Line]",
+                            "pos": {
+                                "x": 176.53,
+                                "y": 62.23
+                            },
+                            "uuid": "a9e4bc88-af2d-475a-afe1-37210b88979f"
+                        },
+                        {
+                            "description": "Symbol #PWR048 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 50.8,
+                                "y": 189.23
+                            },
+                            "uuid": "d96f18bd-5502-4acb-8b25-b1eac5743f91"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        }
+    ],
+    "source": "smart-ring.kicad_sch"
+}
