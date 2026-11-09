@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SmartRing")(type "KiCad")(uri "${KIPRJMOD}/footprints/SmartRing.pretty")(options "")(descr "Project footprints"))
+)
