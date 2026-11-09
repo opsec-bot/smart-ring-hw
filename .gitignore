@@ -1,0 +1,15 @@
+# KiCad local state and backups
+*.bak
+*.kicad_prl
+*-backups/
+fp-info-cache
+_autosave-*
+~*.lck
+
+# kicad-mcp tool cache and generated netlist
+.kicad-mcp/
+smart-ring/output/netlist.xml
+
+# Python
+__pycache__/
+.venv/
